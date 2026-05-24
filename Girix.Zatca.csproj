@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>Girix.Zatca</AssemblyName>
+    <RootNamespace>Girix.Zatca</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>Girix.Zatca</PackageId>
+    <Version>1.0.0</Version>
+    <Description>ZATCA Phase 2 e-invoicing library for .NET backends — covers onboarding, clearance, and reporting workflows.</Description>
+    <Authors>Girix Spider</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.4.0" />
+  </ItemGroup>
+
+</Project>
